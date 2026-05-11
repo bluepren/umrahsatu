@@ -37,7 +37,7 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
     setIsOpen(false);
   };
 
-  // return (
+  return (
   //   <header className="relative w-full z-50">
   //     {/* Top Banner with trust symbols */}
   //     <div className="bg-emerald-950 text-emerald-100 text-xs py-2 px-4 border-b border-emerald-800">
