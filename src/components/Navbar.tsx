@@ -45,7 +45,7 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
           <div className="flex items-center space-x-4">
             <span className="flex items-center gap-1.5 text-amber-400 font-medium">
               <ShieldCheck className="h-4 w-4" />
-              {/* <span>Izin Resmi Kemenag RI: PPIU No. 124/2022</span> */}
+              <span>Izin Resmi Kemenag RI: PPIU No. 124/2022</span>
             </span>
             <span className="hidden md:flex items-center gap-1.5 text-emerald-300">
               <Landmark className="h-3.5 w-3.5" />
@@ -55,11 +55,11 @@ export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
           <div className="flex items-center space-x-4">
             <a href="tel:+628112345678" className="flex items-center gap-1 hover:text-white transition-colors">
               <Phone className="h-3.5 w-3.5 text-amber-400" />
-              {/* <span>Hotline: 0811-2345-678</span> */}
+              <span>Hotline: 0811-2345-678</span>
             </a>
             <span className="hidden lg:flex items-center gap-1 text-emerald-300">
               <Clock className="h-3.5 w-3.5" />
-              {/* <span>Senin - Sabtu: 08:30 - 17:00</span> */}
+              <span>Senin - Sabtu: 08:30 - 17:00</span>
             </span>
           </div>
         </div>
